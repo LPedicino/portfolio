@@ -40,7 +40,7 @@
 @media screen and (max-width: 700px) {
     .image img {
         height: 400px;
-        width: 330px;
-        margin-left: 50px;
+        width: 300px;
+        margin-left: 30px;
     }
 }
