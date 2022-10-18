@@ -47,8 +47,9 @@
 
 @media screen and (max-width: 700px) {
     .image img {
-        height: 400px;
-        width: 300px;
-        margin-left: 30px;
+        height: 350px;
+        width: 260px;
+        margin-left: 27px;
+        margin-bottom: 20px;
     }
 }

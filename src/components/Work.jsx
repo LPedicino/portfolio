@@ -19,11 +19,11 @@ const Work = () => {
 
         {/* Container */}
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${weather})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
@@ -83,7 +83,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${pkm})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
@@ -110,7 +110,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${memo})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
@@ -140,7 +140,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${food})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
@@ -170,7 +170,7 @@ const Work = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${porfolio})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
