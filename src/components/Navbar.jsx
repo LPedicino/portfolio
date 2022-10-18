@@ -4,11 +4,12 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
+  FaRegFilePdf,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Logo from "../assets/logo1.png";
+import pdf from "../components/pdf.pdf";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -104,7 +105,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]">
             {" "}
             <a
-              className="flex justify-between items-center w-full t-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/leandro-pedicino"
               target="blank_"
             >
@@ -114,7 +115,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1b1a1a]">
             {" "}
             <a
-              className="flex justify-between items-center w-full t-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://github.com/LPedicino"
               target="blank_"
             >
@@ -131,14 +132,14 @@ const NavBar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3b5998]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#F40F02]">
             {" "}
             <a
-              className="flex justify-between items-center w-full t-gray-300"
-              href="https://www.facebook.com/leapedicino"
+              className="flex justify-between items-center w-full text-white"
+              href={pdf}
               target="blank_"
             >
-              Facebook <FaFacebook size={30} />
+              Resume <FaRegFilePdf size={30} />
             </a>
           </li>
         </ul>
