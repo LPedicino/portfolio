@@ -23,27 +23,27 @@ const NavBar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li className="hover:border-b-4 border-red-500 ">
+        <li className="hover:font-bold">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="hover:border-b-4 border-red-500 ">
+        <li className="hover:font-bold">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="hover:border-b-4 border-red-500 ">
+        <li className="hover:font-bold">
           <Link to="technologies" smooth={true} duration={500}>
             Technologies
           </Link>
         </li>
-        <li className="hover:border-b-4 border-red-500 ">
+        <li className="hover:font-bold">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="hover:border-b-4 border-red-500 ">
+        <li className="hover:font-bold">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -65,17 +65,17 @@ const NavBar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:border-b-4 border-red-500">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:border-b-4 border-red-500">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:border-b-4 border-red-500">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link
             onClick={handleClick}
             to="technologies"
@@ -85,12 +85,12 @@ const NavBar = () => {
             Technologies
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:border-b-4 border-red-500">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:border-b-4 border-red-500">
+        <li className="py-6 text-4xl hover:font-bold">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
