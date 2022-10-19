@@ -4,7 +4,7 @@ import crypto from "../assets/crypto.PNG";
 import pkm from "../assets/pkm.JPG";
 import memo from "../assets/memo.JPG";
 import food from "../assets/food.JPG";
-import porfolio from "../assets/portfolio.JPG";
+import porfol from "../assets/portfol.JPG";
 
 const Work = () => {
   return (
@@ -172,7 +172,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${porfolio})` }}
+            style={{ backgroundImage: `url(${porfol})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}

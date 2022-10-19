@@ -5,7 +5,7 @@ import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import GitHub from "../assets/github.png";
-import Mongo from "../assets/mongo.png";
+import Tailwind from "../assets/tailwind.png";
 
 const Technologies = () => {
   return (
@@ -50,8 +50,12 @@ const Technologies = () => {
             <p className="my-4">React</p>
           </div>
           <div className="bg-[#0a192f] shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto my-4" src={Mongo} alt="MongoDB icon" />
-            <p className="my-4">MongoDB</p>
+            <img
+              className="w-20 mx-auto my-4"
+              src={Tailwind}
+              alt="Tailwind icon"
+            />
+            <p className="my-4">Tailwind CSS</p>
           </div>
           <div className="bg-[#0a192f] shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto my-4" src={GitHub} alt="GitHub icon" />
