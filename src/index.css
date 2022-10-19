@@ -23,9 +23,9 @@
 }
 
 .content-div button:hover {
-    transform: scale(1.1);
-    background-color: rgb(30 58 138);
-    border: 1px solid rgb(30 58 138);
+    transform: scale(1.05);
+    background-color: #975ad0;
+    border: 1px solid #975ad0;
     transition: all .5s;
     color: white;
 }
@@ -33,7 +33,7 @@
 .content-div:hover {
     background-image: linear-gradient(
         to right,
-        rgba(21, 50, 114, 0.7),
+        rgba(73, 20, 122, 0.5),
         hsla(0, 73%, 6%, 0.7)
     )!important;
 }
