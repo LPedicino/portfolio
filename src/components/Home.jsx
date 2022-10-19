@@ -3,7 +3,10 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div
+      name="home"
+      className="w-full h-screen bg-gradient-to-t from-blue-500 via-black to-violet-400"
+    >
       {/* Container */}
 
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -20,7 +23,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-900 hover:border-blue-900">
+            <button className="text-white rounded-md group border-2 px-6 py-3 my-2 flex items-center hover:font-bold hover:scale-105 duration-300 hover:bg-[#975ad0] hover:border-[#975ad0]">
               View More
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-4" />
