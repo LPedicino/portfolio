@@ -41,18 +41,10 @@
     )!important;
 }
 
-.image img {
-    border-radius: 2rem;
-    height: 550px;
-    width: 450px;
-    margin-left: 250px;
-}
-
 @media screen and (max-width: 700px) {
-    .image img {
+    #image img {
         height: 350px;
         width: 260px;
-        margin-left: 27px;
-        margin-bottom: 20px;
+        margin: auto;
     }
 }

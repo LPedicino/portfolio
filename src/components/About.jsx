@@ -28,8 +28,12 @@ const About = () => {
               and mostly on UI design.
             </p>
           </div>
-          <div className="image">
-            <img src={man} alt="me" />
+          <div id="image">
+            <img
+              className="h-[550px] w-[450px] ml-[250px] rounded-[2rem]"
+              src={man}
+              alt="me"
+            />
           </div>
         </div>
       </div>
