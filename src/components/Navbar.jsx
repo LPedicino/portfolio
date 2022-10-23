@@ -16,15 +16,59 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="cursor-pointer hover:scale-110 duration-300">
+      <div className="cursor-pointer hover:scale-[1.15] duration-300">
         <Link to="home" smooth={true} duration={500}>
           <img
-            className="mt-5 rounded-xl"
+            className="mt-2 rounded-full"
             src={Logo}
             alt=""
             style={{ width: "40px" }}
           />
         </Link>
+      </div>
+      <div className="md:hidden">
+        <ul className="flex flex-row justify-between w-[200px] h-[50px] text-center">
+          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
+            {" "}
+            <a
+              className="flex items-center text-white"
+              href="https://www.linkedin.com/in/leandro-pedicino"
+              target="blank_"
+            >
+              <FaLinkedin size={25} />
+            </a>
+          </li>
+          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
+            {" "}
+            <a
+              className="grid items-center w-full text-white"
+              href="https://github.com/LPedicino"
+              target="blank_"
+            >
+              <FaGithub size={25} />
+            </a>
+          </li>
+          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
+            {" "}
+            <a
+              className="grid items-center w-full text-black"
+              href="mailto:leakomvial@gmail.com"
+              target="blank_"
+            >
+              <HiOutlineMail className="text-white" size={25} />
+            </a>
+          </li>
+          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
+            {" "}
+            <a
+              className="grid items-center w-full text-white"
+              href={pdf}
+              target="blank_"
+            >
+              <FaRegFilePdf size={25} />
+            </a>
+          </li>
+        </ul>
       </div>
 
       {/* Menu */}
@@ -58,8 +102,8 @@ const NavBar = () => {
 
       {/* Hamburger */}
 
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
+        {!nav ? <FaBars size={20} /> : <FaTimes size={25} />}
       </div>
 
       {/* Mobile menu */}
