@@ -18,14 +18,18 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi, I'm Leandro Pedicino. Nice to meet you!</p>
+            <p>
+              Hi, I'm Leandro, <br />
+              Nice to meet you!
+            </p>
           </div>
           <div>
             <p>
-              I'm a programming student, curious and researcher. Lover of
-              technology, nature and food. I'm fully commited to develop my
-              skills and learn about my peers. Highly Focus on Frond end develop
-              and mostly on UI design.
+              Full time programmer apprendice, curious, and researcher. Lover of
+              technology, nature and food. With the most part of my life behind
+              a screen, I'm fully commited to develop my skills in IT community
+              and learn from my peers. Highly focus on the Frond end development
+              and mostly on UI/UX design.
             </p>
           </div>
           <div id="image">

@@ -26,6 +26,9 @@ const NavBar = () => {
           />
         </Link>
       </div>
+
+      {/* Mobile social */}
+
       <div className="md:hidden">
         <ul className="flex flex-row justify-between w-[200px] h-[50px] text-center">
           <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
@@ -48,7 +51,7 @@ const NavBar = () => {
               <FaGithub size={25} />
             </a>
           </li>
-          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
+          <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center  hover:scale-110 duration-300 mt-2">
             {" "}
             <a
               className="grid items-center w-full text-black"
@@ -137,9 +140,9 @@ const NavBar = () => {
         </li>
       </ul>
 
-      {/* Social Icons */}
+      {/* Social Menu */}
 
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 font-semibold">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]">
             {" "}

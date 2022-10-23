@@ -18,11 +18,11 @@ const Home = () => {
           Front End Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a Front End Developer, with focus on React. Really pasionate to
-          learn the deep world of the Front end and UI/UX Design
+          Front End Developer, with focus on React. Really pasionate to learn
+          the deep world of the Front end and UI/UX Design
         </p>
         <div>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about">
             <button className="text-white rounded-md group border-2 px-6 py-3 my-2 flex items-center hover:font-bold hover:scale-105 duration-300 hover:bg-[#975ad0] hover:border-[#975ad0]">
               View More
               <span className="group-hover:rotate-90 duration-300">

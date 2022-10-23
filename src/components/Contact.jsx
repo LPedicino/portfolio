@@ -17,7 +17,8 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             {" "}
-            Submit the form below or contactme directly by email -{" "}
+            Please complete the form below to sendme a direct message to
+            Getform.io or contactme by email.{" "}
           </p>
         </div>
         <input
