@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="cursor-pointer hover:scale-[1.15] duration-300">
-        <Link to="home" smooth={true} duration={500}>
+        <Link to="home">
           <img
             className="mt-2 rounded-full"
             src={Logo}
@@ -73,30 +73,20 @@ const NavBar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex">
-        <li className="hover:font-bold">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200 ">
+          <Link to="home">Home</Link>
         </li>
-        <li className="hover:font-bold">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+          <Link to="about">About</Link>
         </li>
-        <li className="hover:font-bold">
-          <Link to="technologies" smooth={true} duration={500}>
-            Technologies
-          </Link>
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+          <Link to="technologies">Technologies</Link>
         </li>
-        <li className="hover:font-bold">
-          <Link to="work" smooth={true} duration={500}>
-            Work
-          </Link>
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+          <Link to="work">Work</Link>
         </li>
-        <li className="hover:font-bold">
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+          <Link to="contact">Contact</Link>
         </li>
       </ul>
 
@@ -116,12 +106,12 @@ const NavBar = () => {
         }
       >
         <li className="py-6 text-4xl hover:font-bold">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home">
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl hover:font-bold">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about">
             About
           </Link>
         </li>
@@ -136,12 +126,12 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl hover:font-bold">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work">
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl hover:font-bold">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact">
             Contact
           </Link>
         </li>
