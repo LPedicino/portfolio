@@ -75,20 +75,20 @@ const NavBar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200 ">
+      <ul className="hidden md:flex h-[60px] text-center items-center">
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
           <Link to="home">Home</Link>
         </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
           <Link to="about">About</Link>
         </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
           <Link to="technologies">Technologies</Link>
         </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
           <Link to="work">Work</Link>
         </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-xl h-[27px] duration-200">
+        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
           <Link to="contact">Contact</Link>
         </li>
       </ul>
@@ -108,32 +108,27 @@ const NavBar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl hover:font-bold">
+        <li className="py-6 text-4xl hover:font-bold rounded-full hover:bg-gray-300 w-[80%] hover:text-black text-center">
           <Link onClick={handleClick} to="home">
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:font-bold">
+        <li className="py-6 text-4xl hover:font-bold rounded-full hover:bg-gray-300 w-[80%] hover:text-black text-center">
           <Link onClick={handleClick} to="about">
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:font-bold">
-          <Link
-            onClick={handleClick}
-            to="technologies"
-            smooth={true}
-            duration={500}
-          >
+        <li className="py-6 text-4xl hover:font-bold rounded-full hover:bg-gray-300 w-[80%] hover:text-black text-center">
+          <Link onClick={handleClick} to="technologies">
             Technologies
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:font-bold">
+        <li className="py-6 text-4xl hover:font-bold rounded-full hover:bg-gray-300 w-[80%] hover:text-black text-center">
           <Link onClick={handleClick} to="work">
             Work
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:font-bold">
+        <li className="py-6 text-4xl hover:font-bold rounded-full hover:bg-gray-300 w-[80%] hover:text-black text-center">
           <Link onClick={handleClick} to="contact">
             Contact
           </Link>
