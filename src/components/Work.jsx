@@ -66,7 +66,7 @@ const Work = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Netfly Movies
+                IS NOT NETFLIX
               </span>
               <div className="pt-8 text-center">
                 <a href="https://netfly-react.web.app/" target="blank_">
@@ -124,15 +124,12 @@ const Work = () => {
                 Pokédex
               </span>
               <div className="pt-8 text-center">
-                <a href="https://lpedicino.github.io/pokeapp" target="blank_">
+                <a href="https://lpedicino.github.io/pokedex" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a
-                  href="https://github.com/LPedicino/pokeapp/tree/main"
-                  target="blank_"
-                >
+                <a href="https://github.com/LPedicino/pokedex/" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
