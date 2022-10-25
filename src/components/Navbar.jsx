@@ -15,11 +15,11 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[60px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300">
       <div className="cursor-pointer hover:scale-[1.15] duration-300">
         <Link to="home">
           <img
-            className="mt-2 rounded-full"
+            className="mt-[1px] rounded-full"
             src={Logo}
             alt=""
             style={{ width: "40px" }}
