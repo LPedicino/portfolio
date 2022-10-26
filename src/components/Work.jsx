@@ -148,7 +148,7 @@ const Work = () => {
 
             <div className="opacity-0 group-hover:opacity-80">
               <span className="text-2xl font-bold text-white tracking-wider">
-                MemoTest Cuphead
+                Memo Test Cuphead
               </span>
               <div className="pt-8 text-center">
                 <a
