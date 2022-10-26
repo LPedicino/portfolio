@@ -31,10 +31,14 @@ const Work = () => {
           >
             {/* Hover Effects */}
 
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Weather App
               </span>
+              <p className="text-center items-center">
+                Check out updated Data <br /> of your City.
+                <br /> Made with React & Axios.
+              </p>
               <div className="pt-8 text-center">
                 <a
                   href="https://lpedicino.github.io/weather-app/"
@@ -68,6 +72,11 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 IS NOT NETFLIX
               </span>
+              <p className="text-center items-center">
+                Sign up in Firebase cloud <br /> to save your favorite shows.
+                <br /> Made with React, <br />
+                Tailwind CSS & Firebase.
+              </p>
               <div className="pt-8 text-center">
                 <a href="https://netfly-react.web.app/" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -90,6 +99,10 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 Crypto Currency
               </span>
+              <p className="text-center items-center">
+                Check out updated Data <br /> of your favorite Crypto Coin.
+                <br /> Made with React & Axios.
+              </p>
               <div className="pt-8 text-center">
                 <a
                   href="https://lpedicino.github.io/Crypto-Currency"
@@ -119,10 +132,15 @@ const Work = () => {
           >
             {/* Hover Effects */}
 
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Pokédex
               </span>
+              <p className="text-center items-center">
+                Search your favorite Pokémon <br />
+                by Name or Number.
+                <br /> Made with HTML, CSS & JS.
+              </p>
               <div className="pt-8 text-center">
                 <a href="https://lpedicino.github.io/pokedex" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -146,10 +164,14 @@ const Work = () => {
           >
             {/* Hover Effects */}
 
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Memo Test Cuphead
+                MemoTest Cuphead
               </span>
+              <p className="text-center items-center">
+                Memotest game of <br /> the popular Cuphead.
+                <br /> Made with HTML, CSS & JS.
+              </p>
               <div className="pt-8 text-center">
                 <a
                   href="https://lpedicino.github.io/MemotestCuphead"
@@ -179,10 +201,14 @@ const Work = () => {
           >
             {/* Hover Effects */}
 
-            <div className="opacity-0 group-hover:opacity-80">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="opacity-0 group-hover:opacity-80 items-center text-center">
+              <span className="text-2xl font-bold text-white tracking-wider ">
                 Food Recipes
               </span>
+              <p className="text-center items-center">
+                Search your favorite recipe <br /> by Name or Letter.
+                <br /> Made with React.
+              </p>
               <div className="pt-8 text-center">
                 <a
                   href="https://lpedicino.github.io/food-recipes"
