@@ -3,7 +3,7 @@ import weather from "../assets/weather.JPG";
 import crypto from "../assets/crypto.PNG";
 import pkm from "../assets/pkm.JPG";
 import memo from "../assets/memo.JPG";
-import food from "../assets/food.JPG";
+import burgerness from "../assets/burgerness.JPG";
 import netfly from "../assets/netfly.JPG";
 
 const Work = () => {
@@ -196,22 +196,22 @@ const Work = () => {
           {/* Grid item 6 */}
 
           <div
-            style={{ backgroundImage: `url(${food})` }}
+            style={{ backgroundImage: `url(${burgerness})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
             <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider ">
-                Food Recipes
+                Burgerness
               </span>
               <p className="text-center items-center">
-                Search your favorite recipe <br /> by Name or Letter.
-                <br /> Made with React.
+                My own Burger Web. <br /> Check out the best
+                <br /> Burgers I've made
               </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://lpedicino.github.io/food-recipes"
+                  href="https://lpedicino.github.io/burgerness"
                   target="blank_"
                 >
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -219,7 +219,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/LPedicino/food-recipes/tree/main"
+                  href="https://github.com/LPedicino/burgerness"
                   target="blank_"
                 >
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
