@@ -76,21 +76,31 @@ const NavBar = () => {
 
       {/* Menu */}
       <ul className="hidden md:flex h-[60px] text-center items-center">
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
-          <Link to="home">Home</Link>
-        </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
-          <Link to="about">About</Link>
-        </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
-          <Link to="technologies">Technologies</Link>
-        </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
-          <Link to="work">Work</Link>
-        </li>
-        <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
-          <Link to="contact">Contact</Link>
-        </li>
+        <Link to="home">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+            Home
+          </li>
+        </Link>
+        <Link to="about">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+            About
+          </li>
+        </Link>
+        <Link to="technologies">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+            Technologies
+          </li>
+        </Link>
+        <Link to="work">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+            Work
+          </li>
+        </Link>
+        <Link to="contact">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+            Contact
+          </li>
+        </Link>
       </ul>
 
       {/* Hamburger */}
