@@ -1,6 +1,6 @@
 import React from "react";
 import weather from "../assets/weather.JPG";
-import crypto from "../assets/crypto.PNG";
+import remolo from "../assets/remolo.JPG";
 import pkm from "../assets/pkm.JPG";
 import memo from "../assets/memo.JPG";
 import burgerness from "../assets/burgerness.JPG";
@@ -90,22 +90,22 @@ const Work = () => {
           {/* Grid item 3 */}
 
           <div
-            style={{ backgroundImage: `url(${crypto})` }}
+            style={{ backgroundImage: `url(${remolo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
-            <div className="opacity-0 group-hover:opacity-80">
+            <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Crypto Currency
+                Pizzeria Remolo
               </span>
               <p className="text-center items-center">
-                Check out updated Data <br /> of your favorite Crypto Coin.
-                <br /> Made with React & Axios.
+                Project in colaboration <br /> with an IDforIdeas team
+                <br /> Made with React & TailwindCSS.
               </p>
               <div className="pt-8 text-center">
                 <a
-                  href="https://lpedicino.github.io/Crypto-Currency"
+                  href="https://lpedicino.github.io/pizza-remolo"
                   target="blank_"
                 >
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -113,7 +113,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/LPedicino/Crypto-Currency/tree/master"
+                  href="https://github.com/LPedicino/pizza-remolo/"
                   target="blank_"
                 >
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
