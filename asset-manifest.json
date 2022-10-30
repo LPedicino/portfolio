@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a553b83b.css",
-    "main.js": "/portfolio/static/js/main.477aa5be.js",
+    "main.js": "/portfolio/static/js/main.6bdbd816.js",
     "static/media/man.jpg": "/portfolio/static/media/man.2c5cf0694c0c14d084e0.jpg",
     "static/media/pdf.pdf": "/portfolio/static/media/pdf.c0422c86f9c9b8ac7393.pdf",
     "static/media/memo.JPG": "/portfolio/static/media/memo.b0575b5cfc008f76f6b0.JPG",
@@ -10,7 +10,7 @@
     "static/media/logo1.png": "/portfolio/static/media/logo1.9716909261440b22c6a9.png",
     "static/media/netfly.JPG": "/portfolio/static/media/netfly.4bbcf9bb8b53af1be151.JPG",
     "static/media/remolo.JPG": "/portfolio/static/media/remolo.131bc6e613182af22e0b.JPG",
-    "static/media/burgerness.JPG": "/portfolio/static/media/burgerness.9700e35d374f03e5388e.JPG",
+    "static/media/burgerness.JPG": "/portfolio/static/media/burgerness.440d2a6da2060c5852c1.JPG",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.a553b83b.css.map": "/portfolio/static/css/main.a553b83b.css.map",
-    "main.477aa5be.js.map": "/portfolio/static/js/main.477aa5be.js.map"
+    "main.6bdbd816.js.map": "/portfolio/static/js/main.6bdbd816.js.map"
   },
   "entrypoints": [
     "static/css/main.a553b83b.css",
-    "static/js/main.477aa5be.js"
+    "static/js/main.6bdbd816.js"
   ]
 }
