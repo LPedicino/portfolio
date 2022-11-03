@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiChevronDoubleRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 const Home = () => {
   return (
@@ -21,12 +21,12 @@ const Home = () => {
           Front End Developer, with focus on React. Really pasionate to learn
           the deep world of the Front end and UI/UX Design
         </p>
-        <div>
+        <div className="w-[10.5rem] ">
           <Link to="about">
-            <button className="text-white rounded-md group border-2 px-6 py-3 my-2 flex items-center hover:font-bold hover:scale-105 duration-300 hover:bg-[#975ad0] hover:border-[#975ad0] active:scale-90">
-              View More
+            <button className="text-white rounded-md group border-2 w-full px-6 py-3 my-2 flex items-center hover:font-bold hover:scale-105 duration-300 hover:bg-[#975ad0] hover:border-[#975ad0] active:scale-90">
+              Read More
               <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-4" />
+                <HiChevronDoubleRight className="ml-4" />
               </span>
             </button>
           </Link>
