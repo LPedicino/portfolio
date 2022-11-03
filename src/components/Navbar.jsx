@@ -16,7 +16,7 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-5 bg-[#0a192f] text-gray-300">
-      <div className="cursor-pointer hover:scale-[1.15] duration-300">
+      <div className="cursor-pointer hover:scale-[1.15] duration-300 active:scale-90">
         <Link to="home">
           <img
             className="mt-[1px] rounded-full"
@@ -34,7 +34,7 @@ const NavBar = () => {
           <li className="w-[25px] h-[25px] rounded-full flex flex-row items-center hover:scale-110 duration-300 mt-2">
             {" "}
             <a
-              className="flex items-center text-white"
+              className="flex items-center text-white "
               href="https://www.linkedin.com/in/leandro-pedicino"
               target="blank_"
             >
@@ -75,29 +75,29 @@ const NavBar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex h-[60px] text-center items-center">
+      <ul className="hidden md:flex h-[60px] text-center items-center  ">
         <Link to="home">
-          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center active:scale-90">
             Home
           </li>
         </Link>
         <Link to="about">
-          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center active:scale-90">
             About
           </li>
         </Link>
         <Link to="technologies">
-          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center active:scale-90">
             Technologies
           </li>
         </Link>
         <Link to="work">
-          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center active:scale-90">
             Work
           </li>
         </Link>
         <Link to="contact">
-          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center">
+          <li className="hover:text-black hover:font-bold hover:bg-gray-300 rounded-full py-1 h-[32px] duration-200 items-center text-center active:scale-90">
             Contact
           </li>
         </Link>
