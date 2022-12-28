@@ -1,7 +1,7 @@
 import React from "react";
 import weather from "../assets/weather.JPG";
 import remolo from "../assets/remolo.JPG";
-import pkm from "../assets/pkm.JPG";
+import travel from "../assets/travel.JPG";
 import nike from "../assets/nike.JPG";
 import burgerness from "../assets/burgerness.JPG";
 import netfly from "../assets/netfly.JPG";
@@ -202,27 +202,27 @@ const Work = () => {
           {/* Grid item 6 */}
 
           <div
-            style={{ backgroundImage: `url(${pkm})` }}
+            style={{ backgroundImage: `url(${travel})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
             <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Pokédex
+                TravelUp
               </span>
               <p className="text-center items-center">
-                Search your favorite Pokémon <br />
-                by Name or Number.
-                <br /> Made with HTML, CSS & JS.
+                Web of a travels Agency <br />
+                Made with React 
+                <br /> And styled with Tailwind. 
               </p>
               <div className="pt-8 text-center">
-                <a href="https://lpedicino.github.io/pokedex" target="blank_">
+                <a href="https://lpedicino.github.io/travelup" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/LPedicino/pokedex/" target="blank_">
+                <a href="https://github.com/LPedicino/travelup/" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
