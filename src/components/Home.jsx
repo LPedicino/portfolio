@@ -23,7 +23,7 @@ const Home = () => {
         </p>
         <div className="w-[10.5rem] ">
           <Link to="about">
-            <button className="text-white rounded-md group border-2 w-full px-6 py-3 my-2 flex items-center hover:font-bold hover:scale-105 duration-300 hover:bg-[#975ad0] hover:border-[#975ad0] active:scale-90">
+            <button className="text-white rounded-3xl group border-2 w-full px-6 py-3 my-2 flex items-center duration-300 hover:bg-[#975ad0] hover:border-[#975ad0] active:scale-95">
               Read More
               <span className="group-hover:rotate-90 duration-300">
                 <HiChevronDoubleRight className="ml-4" />

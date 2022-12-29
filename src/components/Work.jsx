@@ -36,7 +36,7 @@ const Work = () => {
                 Ecommerce Project
               </span>
               <p className="text-center items-center">
-                Project of Nike store.
+                Project clone of a Nike store.
                 <br /> Made with Vite, Tailwind CSS, <br /> and more
                 technologies.
               </p>

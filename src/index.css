@@ -28,7 +28,6 @@
 .content-div button:hover {
     transform: scale(1.05);
     background-color: #975ad0;
-    border: 1px solid #975ad0;
     transition: all .5s;
     color: white;
 }
