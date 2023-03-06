@@ -36,9 +36,7 @@ const Work = () => {
                 Ecommerce Project
               </span>
               <p className="text-center items-center">
-                Project clone of a Nike store.
-                <br /> Made with Vite, Tailwind CSS, <br /> and more
-                technologies.
+              Nike e-commerce web app <br/> built with React, Redux, <br/> and Firebase,<br/> featuring product browsing, <br/> filtering, and checkout.
               </p>
               <div className="pt-8 text-center">
                 <a
@@ -74,9 +72,7 @@ const Work = () => {
                 IS NOT NETFLIX
               </span>
               <p className="text-center items-center">
-                Sign up in Firebase cloud <br /> to save your favorite shows.
-                <br /> Made with React, <br />
-                Tailwind CSS & Firebase.
+              A responsive movie app built <br/> with React, Redux, Firebase, <br/> and Tailwind CSS, <br/> featuring movie search, <br/> details, and trailers.
               </p>
               <div className="pt-8 text-center">
                 <a href="https://netfly-react.web.app/" target="blank_">
@@ -102,7 +98,7 @@ const Work = () => {
               </span>
               <p className="text-center items-center">
                 Project in colaboration <br /> with an IDforIdeas team
-                <br /> Made with React & TailwindCSS.
+                <br /> A responsive pizza web built <br /> with React and Tailwind CSS.<br /> Users can sort by price<br /> and category.
               </p>
               <div className="pt-8 text-center">
                 <a
@@ -138,9 +134,7 @@ const Work = () => {
                 Weather App
               </span>
               <p className="text-center items-center">
-                Check out updated Data <br /> of your City.
-                <br /> Made with React & Axios.
-              </p>
+              Weather app built with <br/> React, Axios and <br/>OpenWeatherMap API. <br/> Displays current weather <br/> for any location.</p>
               <div className="pt-8 text-center">
                 <a
                   href="https://lpedicino.github.io/weather-app/"
@@ -175,8 +169,7 @@ const Work = () => {
                 Burgerness
               </span>
               <p className="text-center items-center">
-                My own Burger Web. <br /> Check out the best
-                <br /> Burgers I've made
+              A responsive web for <br/> a burger restaurant, with  <br/> online ordering <br/> and detailed food info. <br/> Built with React <br/> and Tailwind CSS.
               </p>
               <div className="pt-8 text-center">
                 <a

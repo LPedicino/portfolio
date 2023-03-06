@@ -25,12 +25,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Full time programmer apprendice, curious, and researcher. Lover of
-              technology, nature and food. With the most part of my life behind
-              a screen, I'm fully commited to develop my skills in IT community
-              and learn from my peers. Highly focus on the Frond end development
-              and mostly on UI/UX design.
-            </p>
+            I'm a programmer with a focus on front-end development and UI/UX design. I love keeping up with the latest tech and working on my own projects. I'm always looking to improve my skills and learn from others in the IT community            </p>
           </div>
           <div id="image">
             <img

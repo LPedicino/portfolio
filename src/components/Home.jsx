@@ -18,8 +18,7 @@ const Home = () => {
           Front End Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          Front End Developer, with focus on React. Really pasionate to learn
-          the deep world of the Front end and UI/UX Design
+        Passionate about nature, video games, and food. Spent significant time in front of computers, always curious and eager to learn.
         </p>
         <div className="w-[10.5rem] ">
           <Link to="about">
