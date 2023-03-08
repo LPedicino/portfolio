@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a0a28eb.css",
-    "main.js": "/portfolio/static/js/main.b2458c45.js",
+    "main.js": "/portfolio/static/js/main.e7271c37.js",
     "static/media/man.jpg": "/portfolio/static/media/man.2c5cf0694c0c14d084e0.jpg",
     "static/media/pdf.pdf": "/portfolio/static/media/pdf.05d2a02d9d46d0894c95.pdf",
     "static/media/weather.JPG": "/portfolio/static/media/weather.9dd2857688d64e2c517b.JPG",
     "static/media/logo1.png": "/portfolio/static/media/logo1.9716909261440b22c6a9.png",
     "static/media/netfly.JPG": "/portfolio/static/media/netfly.4bbcf9bb8b53af1be151.JPG",
     "static/media/nike.JPG": "/portfolio/static/media/nike.3ba711e91c999cdba8c6.JPG",
-    "static/media/travel.JPG": "/portfolio/static/media/travel.1105e49dec351c0db1d8.JPG",
-    "static/media/remolo.JPG": "/portfolio/static/media/remolo.131bc6e613182af22e0b.JPG",
+    "static/media/remolo.JPG": "/portfolio/static/media/remolo.dc2cc079dbc9879999a6.JPG",
     "static/media/burgerness.JPG": "/portfolio/static/media/burgerness.440d2a6da2060c5852c1.JPG",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/dashboard.JPG": "/portfolio/static/media/dashboard.af281dbbe8015e50c355.JPG",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.8a0a28eb.css.map": "/portfolio/static/css/main.8a0a28eb.css.map",
-    "main.b2458c45.js.map": "/portfolio/static/js/main.b2458c45.js.map"
+    "main.e7271c37.js.map": "/portfolio/static/js/main.e7271c37.js.map"
   },
   "entrypoints": [
     "static/css/main.8a0a28eb.css",
-    "static/js/main.b2458c45.js"
+    "static/js/main.e7271c37.js"
   ]
 }
