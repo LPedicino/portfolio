@@ -1,7 +1,7 @@
 import React from "react";
 import weather from "../assets/weather.JPG";
 import remolo from "../assets/remolo.JPG";
-import travel from "../assets/travel.JPG";
+import dashboard from "../assets/dashboard.JPG";
 import nike from "../assets/nike.JPG";
 import burgerness from "../assets/burgerness.JPG";
 import netfly from "../assets/netfly.JPG";
@@ -169,7 +169,7 @@ const Work = () => {
                 Burgerness
               </span>
               <p className="text-center items-center">
-              A responsive web for <br/> a burger restaurant, with  <br/> online ordering <br/> and detailed food info. <br/> Built with React <br/> and Tailwind CSS.
+              A responsive web for <br/> a burger restaurant, with  <br/> detailed food info. <br/> Built with React <br/> and Tailwind CSS.
               </p>
               <div className="pt-8 text-center">
                 <a
@@ -195,27 +195,30 @@ const Work = () => {
           {/* Grid item 6 */}
 
           <div
-            style={{ backgroundImage: `url(${travel})` }}
+            style={{ backgroundImage: `url(${dashboard})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-xl flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
 
             <div className="opacity-0 group-hover:opacity-80 items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                TravelUp
+                Dashboard
               </span>
               <p className="text-center items-center">
-                Web of a travels Agency <br />
-                Made with React 
-                <br /> And styled with Tailwind. 
+                Shows sales, revenue, and<br />
+                order volume data for <br/> an online store.<br />Features interactive elements<br /> for easy data analysis.
+                <br/>
+                built with Next js, 
+                <br /> styled with Tailwind CSS.
+
               </p>
               <div className="pt-8 text-center">
-                <a href="https://lpedicino.github.io/travelup" target="blank_">
+                <a href="https://dashboard-nextjs-gxkt77vmj-lpedicino.vercel.app/" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/LPedicino/travelup/" target="blank_">
+                <a href="https://github.com/LPedicino/Dashboard-Nextjs" target="blank_">
                   <button className="text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
