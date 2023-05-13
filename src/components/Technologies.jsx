@@ -19,7 +19,7 @@ const Technologies = () => {
           <p className="text-4xl font-bold inline border-b-4 border-red-500">
             Technologies
           </p>
-          <p className="py-4">These are some technologies I've worked with</p>
+          <p className="py-4">These are some of the technologies he worked with</p>
         </div>
 
         {/* Icons Container */}

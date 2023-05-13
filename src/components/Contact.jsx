@@ -17,8 +17,8 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             {" "}
-            Please complete the form below to sendme a direct message to
-            Getform.io or contactme by email.{" "}
+            Please complete the form below to send a direct message to
+            his Getform.io or contact him by email.{" "}
           </p>
         </div>
         <input
@@ -40,7 +40,7 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 rounded-2xl hover:bg-[#975ad0] hover:border-[#975ad0] duration-300  px-4 py-3 my-8 mx-auto flex items-center active:scale-95">
-          Let's Collaborate
+          Start a connection 
         </button>
       </form>
     </div>

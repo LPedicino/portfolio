@@ -12,13 +12,13 @@ const Home = () => {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-white">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Leandro Pedicino
+          Ichiro
         </h1>
         <h2 className="text-4xl sm:text-7xl  text-[#8892b0]">
-          Front End Developer
+          Leandro's Owner
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-        Passionate about nature, video games, and food. Spent significant time in front of computers, always curious and eager to learn.
+        I'm a 10 years old blind cat, but have parents who love and care for me. I expend the most of the time sleeping or following Leandro around the house like his shadow. I also scream for my food frequently. ¡Miau! He is the most important thing in my life, and I in his.
         </p>
         <div className="w-[10.5rem] ">
           <Link to="about">
