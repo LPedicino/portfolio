@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.670bf6a7.css",
-    "main.js": "/portfolio/static/js/main.58844257.js",
-    "static/media/pdf.pdf": "/portfolio/static/media/pdf.5639fcf299f018f9e61a.pdf",
+    "main.js": "/portfolio/static/js/main.7df45cfb.js",
     "static/media/ichi.jpeg": "/portfolio/static/media/ichi.316963530b2b7a088aa9.jpeg",
     "static/media/weather.JPG": "/portfolio/static/media/weather.9dd2857688d64e2c517b.JPG",
     "static/media/remolo.JPG": "/portfolio/static/media/remolo.7d0fa2ac869d00a4f5dd.JPG",
     "static/media/logo1.png": "/portfolio/static/media/logo1.9716909261440b22c6a9.png",
     "static/media/nike.JPG": "/portfolio/static/media/nike.3ba711e91c999cdba8c6.JPG",
     "static/media/netfly.JPG": "/portfolio/static/media/netfly.36c0aae9f8498e1c955f.JPG",
+    "static/media/pdf.pdf": "/portfolio/static/media/pdf.907ca768af78d0117297.pdf",
     "static/media/dashboard.JPG": "/portfolio/static/media/dashboard.cf590678d9052149641a.JPG",
     "static/media/burgerness.JPG": "/portfolio/static/media/burgerness.440d2a6da2060c5852c1.JPG",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.670bf6a7.css.map": "/portfolio/static/css/main.670bf6a7.css.map",
-    "main.58844257.js.map": "/portfolio/static/js/main.58844257.js.map"
+    "main.7df45cfb.js.map": "/portfolio/static/js/main.7df45cfb.js.map"
   },
   "entrypoints": [
     "static/css/main.670bf6a7.css",
-    "static/js/main.58844257.js"
+    "static/js/main.7df45cfb.js"
   ]
 }
