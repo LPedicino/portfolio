@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  portfolio-front:
+    container_name: web-portfolio-front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - red-portfolio
+
+  proxy:
+    container_name: web-portfolio-proxy
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - portfolio-front
+    networks:
+      - red-portfolio
+
+networks:
+  red-portfolio:
+    driver: bridge
